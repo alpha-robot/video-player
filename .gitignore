@@ -1,0 +1,5 @@
+# Ignore anything without an extension
+*
+!*/
+!*.*
+
