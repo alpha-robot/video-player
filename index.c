@@ -2,7 +2,6 @@
 #include <unistd.h>
 #include <gst/gst.h>
 
-#define PATH "file:"
 /* Structure to contain all our information, so we can pass it to callbacks */
 typedef struct _CustomData {
   GstElement *pipeline;
@@ -19,6 +18,7 @@ static void pad_added_handler(GstElement *src, GstPad *pad, CustomData *data);
 int main(int argc, char *argv[]) {
   
   /* Check if there is a arg supplied */
+  printf("Your args: %s", argv[1]);
 
   if(access(argv[1], F_OK) != 0){
     fprintf(stderr, "Error opening file: %s\n", strerror(2));
