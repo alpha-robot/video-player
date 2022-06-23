@@ -1,5 +1,2 @@
-# Ignore anything without an extension
-*
-!*/
-!*.*
+# Ignore anything except launch.json (debugging)
 launch.json
