@@ -5,10 +5,10 @@
 You must use GCC compiler, in addition to include Gstreamer library with the following ``pkg-config --cflags --libs gstreamer-1.0`` flag, this is how it proceeds: 
 
 ~~~
-gcc ${file} -o ${outputFile} `pkg-config --cflags --libs gstreamer-1.0`
+gcc index.c -o ${outputFile} `pkg-config --cflags --libs gstreamer-1.0`
 ~~~
-Example: ``gcc index.c -o index `pkg-config --cflags --libs gstreamer-1.0` ``
 
+You can always use the already compiled ones in the `com` folder.
 
 ### How to execute
 
@@ -16,3 +16,10 @@ Example: ``gcc index.c -o index `pkg-config --cflags --libs gstreamer-1.0` ``
 ./${outputFile} ${yourVideoFile}
 ~~~
 Example: ``./player hello.mp4``
+
+
+### Links
+
+> Installing [GCC compiler](https://gcc.gnu.org/install/)
+
+> Installing [Gstreamer](https://gstreamer.freedesktop.org/documentation/installing/index.html?gi-language=c)
