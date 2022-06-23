@@ -15,3 +15,10 @@ gcc index.c -o ${outputFile} `pkg-config --cflags --libs gstreamer-1.0`
 ./${outputFile} ${yourVideoFile}
 ~~~
 Example: ``./player hello.mp4``
+
+
+### Links
+
+> Installing [GCC compiler](https://gcc.gnu.org/install/)
+
+> Installing [Gstreamer](https://gstreamer.freedesktop.org/documentation/installing/index.html?gi-language=c)
