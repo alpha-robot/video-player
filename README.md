@@ -8,6 +8,7 @@ You must use GCC compiler, in addition to include Gstreamer library with the fol
 gcc index.c -o ${outputFile} `pkg-config --cflags --libs gstreamer-1.0`
 ~~~
 
+You can always use the already compiled ones in the `com` folder.
 
 ### How to execute
 
