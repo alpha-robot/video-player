@@ -13,9 +13,9 @@ You can always use the already compiled ones in the `com` folder.
 ### How to execute
 
 ~~~
-./${outputFile} ${yourVideoFile}
+./${outputFile} ${yourVideoFilePath}
 ~~~
-Example: ``./player hello.mp4``
+Example: ``./player ./videos/hello.mp4``
 
 
 ### Links
